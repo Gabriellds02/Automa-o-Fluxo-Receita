@@ -19,8 +19,8 @@ class Bot:
     def rodar_bot(self):
         self.nav.get("https://aplicacoes.mds.gov.br/saa-web/login.action")
         # Dados para acesso
-        login = "044.827.497-37"
-        senha = "boris2023"
+        login = "CPF"
+        senha = "Senha"
         # ---------------------------------------------  Acess Relatório Financeiro    --------------------------------------------
         self.nav.find_element(By.ID, 'login_user_username').send_keys(login)
         self.nav.find_element(By.ID, 'login_user_password').send_keys(senha)
